@@ -1,6 +1,9 @@
 const ButtonComponent = (props) => {
   return (
-    <button className="btn btn-primary my-3" onClick={() => {}}>
+    <button
+      className="btn btn-primary
+   my-3"
+    >
       {props.btnText}
     </button>
   );
